@@ -1,0 +1,151 @@
+
+@primary :rgb(143, 207, 143);
+@secondary: rgb(199, 86, 86);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    background-color: rgb(126, 122, 122);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu__section {
+    display: flex;
+    justify-content: space-between;
+    background-color:@primary;
+  
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu__logo {
+ padding-left: 30px;
+ user-select: none;
+}
+
+
+.menu__li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu__nav {    
+    padding-top: 38px;
+    padding-right: 100px;
+    user-select: none;
+}
+
+.menu__nav a {
+    margin-left: 50px;
+    border:1px solid rgb(35, 107, 63);
+    border-radius: 25px;
+    padding: 5px 16px;
+}
+
+.menu__nav a:hover {
+    transform: scale(1.1);
+}
+
+.content__information {
+    text-align: center;
+    margin: 0 auto;
+    padding-top:100px;
+}
+
+.content__text {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.content__text:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width:60px;
+    height:3px;
+    background-color:rgb(117, 155, 89);
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+
+.content__about {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.content__button {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    background: rgb(167, 82, 82);
+    max-width:90px;
+    padding: 6px 16px;
+
+    
+}
+
+.content__button a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.content__video {
+    max-width: 500px;
+    border-radius:25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.menu__info {
+    margin:0 auto;
+    padding-top:15px;
+    background:@primary;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info__text {
+    padding-top: 10px;
+    padding-bottom:40px;
+}
+
+.info__text:after {
+    content:"";
+    width: 60px;
+    height: 3px;
+    background-color:rgb(126, 122, 122);
+    margin: 0 auto;
+    margin-top:20px;
+    display: block;
+}
+
+.info_textinf {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 500px;
+
+}
+
+.info__audio {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 40px;
+}
